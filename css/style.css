@@ -309,4 +309,22 @@ footer p {
     .product-image {
         height: 220px;
     }
+    .branch-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .brand-image img {
+        height: 220px;
+    }
+    .branch-info {
+        text-align: center;
+    }
+    .promotion-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .promotion-card {
+        width: 90%;
+    }
+
 }
