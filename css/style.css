@@ -254,6 +254,17 @@ section p {
     max-width: 800px;
     margin: 10px auto;
 }
+.contact-button {
+    margin-top: 25px;
+}
+.contact-button .btn{
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.contact-button .btn:hover {
+    background-color: #8F0D15;
+    transform: scale(1.10);
+}
 footer {
     background-color: #8F0D15;
     color: #FFFFFF;
