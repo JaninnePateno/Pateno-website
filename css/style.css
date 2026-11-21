@@ -324,6 +324,23 @@ footer p {
         justify-content: center;
         gap: 6px 14px;
     }
+    .hero {
+        flex-direction: column;
+        padding: 35px 20px;
+        gap: 25px;
+    }
+    .hero img{
+        height: 280px;
+    }
+    .hero-content {
+        text-align: center
+    }
+    .hero-content h1{
+        font-size: 32px;
+    }
+    .hero-content p {
+        font-size: 15px;
+    }
     .brand {
         flex-direction: column;
         text-align: center;
