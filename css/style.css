@@ -81,17 +81,42 @@ a[href^="#"] {
     cursor: pointer;
 }
 .hero {
-    background-color: #F7F4F2;
-    text-align: center;
-    padding: 60px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 70px 40px;
+    max-width: 1400px;
+    margin: auto;
 }
 .hero-image {
+    flex: 1.2;
+}
+.hero-image img {
     display: block;
     width: 100%;
-    max-width: 900px;
-    height: auto;
-    margin: 20px auto 0;
-    border-radius: 8px;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.hero-content {
+    flex: 1;
+    text-align: left;
+}
+.hero-content h1 {
+    color: #B5121B;
+    font-size: 40px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+.hero-content p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 10px 0;
+}
+.hero-content .btn {
+    font-size: 17px;
+    padding: 14px 28px;
 }
 .btn {
     display: inline-block;
@@ -100,7 +125,7 @@ a[href^="#"] {
     padding: 12px 25px;
     margin-top: 15px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 50px;
 }
 .btn:hover {
     background-color: #8F0D15;
